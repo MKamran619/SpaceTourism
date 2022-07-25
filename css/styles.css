@@ -1,0 +1,331 @@
+#home{
+  background-image: url(home.jpg);
+  object-fit:none;
+    /* font-family: 'Playfair Display', serif; */
+  /* font-family: 'Cormorant SC', serif; */
+  /* font-family: 'EB Garamond', serif; */
+  font-family: 'Marcellus', serif;
+  /* background-size: cover ; */
+  color: #fff;
+}
+
+.navbar{
+  margin: 3%;
+  margin-right: 0;
+
+}
+
+
+#link1, #link2, #link3, #link4{
+  border-bottom: 3px solid white;
+  color:#fff;
+
+
+}
+
+
+/* font-weight: bold;
+background: var(--black-050);
+color: var(--black-900); */
+
+
+
+#hr-top{
+  width: 30%;
+  border-top: 2px solid white;
+  margin-left: 7%;
+
+
+}
+
+.collapse{
+  background: rgba(55, 55, 63,0.3);
+  font-size: 1.3rem;
+  padding:1% 5% 1% 5%;
+  width: 50%;
+  display: inline-block;
+}
+.navbar-toggler{
+ margin-right: 10%;
+}
+ /* home body */
+#home-body{
+  width:65%;
+  padding-bottom: 3%;
+  margin-top: 10%;
+  margin-left: 15%;
+}
+#home-body h1{
+font-size: 7rem;
+
+}
+#home-body h5{
+  opacity: 0.4;
+}
+#home-body p{
+  opacity: 0.4;
+}
+.circle{
+  background-color: #fff;
+  border-radius:100%;
+  width:  170px;
+  height: 170px;
+  margin-left: 28%;
+  margin-top: 10%;
+  text-align: center;
+
+}
+.circle h2{
+  /* position: absolute; */
+  color:black;
+  margin-top: 40%;
+margin-left: 15%;
+}
+ /* destination-body */
+#destination-body {
+
+  width:90%;
+  margin-left:0;
+}
+a{
+  display: inline-block;
+}
+.navbar-nav{
+  display: contents;
+
+}
+#link-a, #link-b, #link-c, #link-d{
+  border-bottom: 3px solid white;
+}
+#destination-body .navbar{
+  margin-left: 0;
+}
+
+#destination-body h1{
+  font-size: 5rem;
+}
+#destination-body h5{
+  margin-left: 20%;
+
+}
+#destination-body p{
+  opacity: 0.5;
+}
+#destination-body h6{
+  opacity: 0.7;
+}
+.img-dest{
+margin-left: 40%;
+margin-top: 15%;
+}
+#destination-body hr{
+  width:100%;
+  margin-left: 0;
+}
+.destination-item {
+padding-left: 10%;
+margin-top: 5%;
+}
+
+ /* Crew-body */
+#crew-body {
+  margin-left: 15%;
+  width: 47%;
+}
+#crew-body h3{
+margin-bottom: 12%;
+margin-left: 0;
+margin-right: 35%;
+}
+#crew-body h1{
+  width: 100%;
+}
+.all-step{
+  margin-left:0;
+  margin-top: 18%;
+  margin-bottom: 2%;
+
+}
+a{
+  display: inline-block;
+  margin-left: 10px;
+}
+.step{
+  height: 15px;
+  width: 15px;
+  background-color: #fff;
+  border-radius:100%;
+  margin-right: 5%;
+  display: inline-block;
+  opacity: 0.3;
+}
+.stepon{
+  height: 15px;
+  width: 15px;
+  background-color: #fff;
+  border-radius:100%;
+  margin-right: 5%;
+  display: inline-block;
+  /* opacity: 0.5; */
+}
+#crew-body p{
+  opacity: 0.5;
+}
+#crew-body h4{
+  opacity: 0.5;
+}
+
+#crew-body img{
+  /* height: 70%; */
+  margin-left: 65%;
+}
+
+/* technology-body */
+#technology-body h2{
+ margin-left: 15%;
+ margin-bottom: 5%;
+}
+
+#technologyVechile, #technologySpaceport, #technologyCapsule{
+margin-left: 10%;
+margin-top: 3%;
+}
+#technology-body p{
+opacity: 0.6;
+}
+#technology-body h5{
+opacity: 0.6;
+}
+#technology-body img{
+
+margin-left: 50%;
+}
+.technology-paragraph{
+width: 35%;
+}
+.step2{
+height: 50px;
+width: 50px;
+background-color: #fff;
+color: black;
+text-align: center;
+font-size: 2rem;
+text-decoration:none;
+border-radius:100%;
+display: inline-block;
+margin-left: 25%;
+margin-bottom: 10%;
+opacity: 0.4;
+}
+.step3{
+height: 50px;
+width: 50px;
+background-color: #fff;
+color: black;
+text-align: center;
+font-size: 2rem;
+text-decoration: none;
+border-radius:100%;
+display: inline-block;
+margin-left: 25%;
+margin-bottom: 10%;
+}
+.step-mobile{
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+  color: black;
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: none;
+  border-radius:100%;
+  display: inline-block;
+  margin: auto;
+  margin-bottom: 10%;
+}
+.step-mobile{
+  display: block;
+  opacity: 0.7;
+}
+#technologyVechile-mobile img{
+margin-left: 0;
+margin-bottom: 5%;
+}
+#technologyVechile-mobile p{
+margin: auto;
+margin-bottom: 5%;
+width: 80%;
+}
+#technologySpaceport-mobile img{
+  margin-left: 0;
+  margin-bottom: 5%;
+}
+#technologySpaceport-mobile p{
+  margin: auto;
+  margin-bottom: 5%;
+  width: 80%;
+}
+#technologyCapsule-mobile img{
+  margin-left: 0;
+  margin-bottom: 5%;
+}
+#technologyCapsule-mobile p{
+
+  margin: auto;
+  margin-bottom: 5%;
+  width: 80%;
+}
+
+
+
+
+
+ @media (max-width: 800px) {
+   body{
+     text-align: center;
+   }
+  #home{
+    background-image: url(home-tablet.jpg);
+
+
+    background-size: 800px 750px;
+    text-align: center;
+  }
+
+  #destination-body{
+
+    text-align: center;
+
+  }
+
+  #link1, #link2, #link3, #link4{
+    border-bottom: none;
+  }
+  #hr-top{
+  display: none;
+  }
+
+  .img-dest{
+    margin-left: 20%;
+    margin-right: auto;
+ }
+ #crew-body {
+  text-align: center;
+
+  width: 80%;
+ }
+ #crew-body img{
+   /* height: 70%; */
+   width: 80%;
+   height: 90%;
+   margin-top: 10%;
+   margin-left: auto;
+ }
+}
+@media (max-width: 360px) {
+  #home{
+    background-image: url(home-phone.jpg);
+
+    text-align: center;
+    margin-left: 0;
+  }
